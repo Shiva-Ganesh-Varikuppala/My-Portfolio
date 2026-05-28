@@ -142,6 +142,32 @@
     tick();
   }
 
+  // ── Mobile menu ─────────────────────────────
+  const burger = $('.nav-burger');
+  const mobileMenu = $('.mobile-menu');
+  const body = document.body;
+
+  const setMenu = (open) => {
+    body.classList.toggle('menu-open', open);
+    burger?.setAttribute('aria-expanded', open ? 'true' : 'false');
+    burger?.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+    mobileMenu?.setAttribute('aria-hidden', open ? 'false' : 'true');
+  };
+
+  burger?.addEventListener('click', () => {
+    setMenu(!body.classList.contains('menu-open'));
+  });
+  $$('.mobile-menu-nav a').forEach((a) => {
+    a.addEventListener('click', () => setMenu(false));
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') setMenu(false);
+  });
+  // Close menu if viewport grows past mobile breakpoint
+  window.matchMedia('(min-width: 721px)').addEventListener('change', (e) => {
+    if (e.matches) setMenu(false);
+  });
+
   // ── Scroll progress + nav state ─────────────
   const progress = $('.progress span');
   const nav      = $('.nav');
