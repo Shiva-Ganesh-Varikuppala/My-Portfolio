@@ -4,6 +4,8 @@ A minimal, editorial-style personal portfolio for an aspiring **AI / ML engineer
 
 Hand-built with plain HTML, CSS and JavaScript — no build step, no framework. Just open `index.html`.
 
+**Live demo →** [shivaganeshportfolio.netlify.app](https://6a18822c634305b54962a067--shivaganeshportfolio.netlify.app/)
+
 ---
 
 ## Highlights
