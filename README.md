@@ -84,6 +84,6 @@ Plain web platform: HTML · CSS · vanilla JS · Canvas2D. Fonts via Google Font
 **ShivaGanesh V**
 
 - Email — [vsgvarikuppala@gmail.com](mailto:vsgvarikuppala@gmail.com)
-- GitHub — [shiva676466](https://github.com/shiva676466)
+- GitHub — [Shiva-Ganesh-Varikuppala](https://github.com/Shiva-Ganesh-Varikuppala)
 - LinkedIn — [shivaganesh-v](https://www.linkedin.com/in/shivaganesh-v)
 - X / Twitter — [@mymac688769](https://x.com/mymac688769)
